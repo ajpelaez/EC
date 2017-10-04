@@ -15,6 +15,7 @@ No conseguí acabar el primer problema (5.1) en clase pero me falto poco y lo co
 ### Sumar N enteros sin signo de 32 bits en una plataforma de 32 bits sin perder precisión. (suma.s)
 
 ~
+
 .section .data
 lista:		.int 1,2,4000000000,4000000000
 longlista:	.int (.-lista)/4
@@ -55,4 +56,5 @@ bucle:
 
 	pop %esi									#ponemos %esi a su valor original
 	ret
+
 ~
